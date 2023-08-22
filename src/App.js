@@ -2,6 +2,11 @@ import './App.css';
 import EightBall from './EightBall';
 
 
+
+//TODO: still add prop/state/flow even if there is none ( App > EightBall)
+/** App renders EightBall with list of objects
+ */
+//TODO: instead have the answer live in EightBall.js so we can have it as a default
 function App() {
 
   const answers = [
